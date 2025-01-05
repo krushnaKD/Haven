@@ -8,9 +8,9 @@ const Midsecton = () => {
       <h1 className="text-5xl tracking-tight font-medium text-[#1C4044] text-center mt-24">
         We’re on a mission to make life <br /> simpler for homeowners
       </h1>
-      <div className="w-[80%] grid grid-rows-3 h-[80%] mt-24 ">
+      <div className="w-[80%] grid grid-rows-3  h-[70%] mt-24 ">
         <div className="row-span-2 grid grid-cols-2 gap-5  p-5">
-          <div className="bg-[#FDFDFB] h-[80%] shadow-lg  rounded-lg flex flex-col items-center gap-2 justify-center">
+          <div className="bg-[#FDFDFB] h-[90%] shadow-lg  rounded-lg flex flex-col items-center gap-2 justify-center">
             <img className="w-[13vw]" src={home} alt="" />
             <h1 className="text-3xl ">Who We Are</h1>
             <p className="text-center font-sans text-xl ">
@@ -19,7 +19,7 @@ const Midsecton = () => {
               our team.
             </p>
           </div> 
-          <div className="bg-[#FDFDFB] h-[80%] shadow-lg  rounded-lg flex flex-col items-center gap-2 justify-center">
+          <div className="bg-[#FDFDFB] h-[90%] shadow-lg rounded-lg flex flex-col items-center gap-2 justify-center">
           <img className="w-[13vw]" src={msg} alt="" />
             <h1 className="text-3xl ">Hear from our customers</h1>
             <p className="text-center font-sans text-xl ">
