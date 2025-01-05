@@ -3,8 +3,8 @@ import homet from "../assets/home-svgrepo-com.svg";
 
 const Footer = () => {
   return (
-    <div className="w-full h-[130vh] bg-[#004D49] mt-20 flex flex-col items-center  p-10">
-      <div className="w-[80%] h-[55vh] bg-transparent rounded-3xl border-[1px] border-zinc-500 flex flex-col items-center justify-center gap-10 mt-10">
+    <div className="w-full h-[150vh] bg-[#004D49] mt-20 flex flex-col items-center  p-10">
+      <div className="w-[80%] h-[55vh] p-16 bg-transparent rounded-3xl border-[1px] border-zinc-500 flex flex-col items-center justify-center gap-10 mt-10">
         <h1 className="text-6xl font-serif text-[#FFFFFF] text-center   ">
           Unlock a new chapter — make <br /> home ownership make sense
         </h1>
@@ -72,28 +72,36 @@ const Footer = () => {
           Get the latest in customer retention
         </h1>
       </div>
-      <div className="flex items-start justify-start gap-2" >
+      <div className="flex items-start justify-start gap-2">
         <input
           className="p-20 py-2 rounded-md text-start outline-none"
           type="text"
           placeholder="Enter your email address"
         />
         <button className="px-4 py-[6px] text-xl  bg-[#068466] rounded-lg text-white hover:bg-[#1C4044]">
-         Subscribe
+          Subscribe
         </button>
       </div>
       <div className="w-full grid grid-cols-5 mt-[10vh] p-20">
         <div className="flex gap-5 ">
-        <i className="ri-facebook-circle-fill text-white text-2xl hover:text-zinc-400 cursor-pointer"></i>
-        <i className="ri-twitter-fill text-white text-2xl hover:text-zinc-400 cursor-pointer"></i>
-        <i className="ri-linkedin-box-fill text-white text-2xl hover:text-zinc-400 cursor-pointer"></i>
+          <i className="ri-facebook-circle-fill text-white text-2xl hover:text-zinc-400 cursor-pointer"></i>
+          <i className="ri-twitter-fill text-white text-2xl hover:text-zinc-400 cursor-pointer"></i>
+          <i className="ri-linkedin-box-fill text-white text-2xl hover:text-zinc-400 cursor-pointer"></i>
         </div>
         <div className="col-span-3 flex ml-10 gap-5 items-center justify-center">
-          <h1 className="text-white hover:text-[#DDAE71] cursor-pointer">Privacy Policy</h1>
-          <h1 className="text-white hover:text-[#DDAE71] cursor-pointer">Terms of Use</h1>
-          <h1 className="text-white hover:text-[#DDAE71] cursor-pointer">Coordinated Disclosure Policy</h1>
+          <h1 className="text-white hover:text-[#DDAE71] cursor-pointer">
+            Privacy Policy
+          </h1>
+          <h1 className="text-white hover:text-[#DDAE71] cursor-pointer">
+            Terms of Use
+          </h1>
+          <h1 className="text-white hover:text-[#DDAE71] cursor-pointer">
+            Coordinated Disclosure Policy
+          </h1>
         </div>
-        <h1 className="text-white text-md ">© 2025 Haven. All Rights Reserved.</h1>
+        <h1 className="text-white text-md ">
+          © 2025 Haven. All Rights Reserved.
+        </h1>
       </div>
     </div>
   );
