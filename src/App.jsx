@@ -5,13 +5,8 @@ import Home from "./components/Home";
 const App = () => {
   return (
     <div
-      style={{
-        background: ` url(https://havenservicing.com/static/4d9df0801f6e52bb8a2410f7128ce171/99556/haven-landscape-hero.webp) `,
-        backgroundPosition: "center",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-      }}
-      className="w-full h-screen "
+  
+      className=" w-full h-full bg-[#F9F7F3]"
     >
       <Home />
     </div>

@@ -4,6 +4,8 @@ export default {
   theme: {
     extend: { boxShadow: {
       'custom-inset': 'inset 0 -190px 500px -50px rgba(255, 255, 255, 0.5)',
+    }, backgroundImage: {
+      'whiteback': "url('../assets/whiteback.png')",
     },},
   },
   plugins: [],

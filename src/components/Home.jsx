@@ -1,34 +1,23 @@
 import React from "react";
 import Navbar from "./Navbar";
+import Hero from "./Hero";
+import Scrollanimation from "./Scrollanimation";
+import Midsecton from "./Midsecton";
+import Secondlast from "./Secondlast";
 
 const Home = () => {
   return (
+    <>
     <div className="w-full h-full font-serif">
-      <Navbar />
-      <div className="w-full h-[60vh] mt-10 flex flex-col items-center">
-        <h1 className="text-[#068466] font-medium text-xl">Meet Heaven</h1>
-        <h1 className="text-7xl text-[#1C4044] font-extrabold tracking-tighter mt-4">
-          Get the most out of{" "}
-        </h1>
-        <span className="text-7xl text-[#1C4044] font-extrabold tracking-tighter">
-          MSR
-        </span>
-        <p className="text-center text-[#1C4044] font-medium text-xl mt-4">
-          Drive meaningful engagement via servicing — helping you understand,
-          <br /> educate, and convert borrowers for mortgage & beyond.
-        </p>
-        <button className="px-14 py-2 mt-10 text-lg bg-[#068466] rounded-lg text-white hover:bg-[#1C4044]">
-          Get-a-Demo
-        </button>
-      </div>
-      <div className="w-full h-screen flex flex-col items-center justify-center mt-20 bg-[#F9F7F3]">
+      <Hero />
+      <div className="absolute top-[80%] w-full h-screen flex flex-col items-center justify-center ">
         <img
           className=""
           src="https://havenservicing.com/static/ce164a33e2a480b5f09032832e685842/haven-dashboard-2.svg"
           alt=""
         />
       </div>
-      <div className="w-full h-screen mt-24 bg-[#F9F7F3]">
+      <div className="w-full h-screen mt-[60vh] ">
         <div className="w-full h-[20vh] flex justify-around items-center text-[#068466]">
           <h1 className="text-center text-5xl font-bold  tracking-tight flex flex-col">
             1.4M+{" "}
@@ -71,9 +60,10 @@ const Home = () => {
               </button>
             </div>
             <div className="w-[27vw] bg-[#004D49] rounded-3xl bg-[url(https://havenservicing.com/static/ff39766aae5f14d201d9bf27d2363fac/98613/subservicer.webp)] bg-[center_bottom_2rem] bg-no-repeat bg-[length:300px_260px] p-5">
-            
-            <h1 className="text-4xl tracking-tighter ml-2 text-white font-semibold">For Subservicer</h1>
-            <p className=" mt-5 text-lg  font-medium tracking-normal font-sans ">
+              <h1 className="text-4xl tracking-tighter ml-2 text-white font-semibold">
+                For Subservicer
+              </h1>
+              <p className=" mt-5 text-lg  font-medium tracking-normal font-sans ">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus,
                 magnam. Lorem ipsum dolor sit, amet consectetur adipisicing.
               </p>
@@ -82,8 +72,10 @@ const Home = () => {
               </button>
             </div>
             <div className="w-[27vw] bg-[#004D49] rounded-3xl p-5 bg-[url(https://havenservicing.com/static/bc1fdbf5bf0368adcd8c484e9847e537/2d1d2/lender.webp)] bg-[center_bottom_2rem] bg-no-repeat bg-[length:300px_260px]">
-            <h1 className="text-4xl tracking-tighter ml-2 text-white font-semibold">For Lenders</h1>
-            <p className=" mt-5 text-lg  font-medium tracking-normal font-sans ">
+              <h1 className="text-4xl tracking-tighter ml-2 text-white font-semibold">
+                For Lenders
+              </h1>
+              <p className=" mt-5 text-lg  font-medium tracking-normal font-sans ">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus,
                 magnam. Lorem ipsum dolor sit, amet consectetur adipisicing.
               </p>
@@ -94,8 +86,11 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="w-full h-screen"></div>
     </div>
+    <Scrollanimation/>
+    <Midsecton/>
+    <Secondlast/>
+    </>
   );
 };
 
