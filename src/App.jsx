@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       className=" w-full h-full bg-[#F9F7F3]"
     >
       <Home />
+      <Footer/>
     </div>
   );
 };
