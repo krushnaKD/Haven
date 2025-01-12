@@ -9,7 +9,7 @@ const Hero = () => {
 
       <motion.div 
        initial={{y:50,opacity:0}}
-       animate={{y:0,opacity:1}}
+       animate={{y:0,opacity:1 ,delay:3}}
        transition={{duration:1 ,ease:"easeInOut"}}
       className="w-full h-[60vh] mt-10 flex flex-col items-center ">
         <h1 className="text-[#068466] font-medium text-xl">Meet Heaven</h1>
