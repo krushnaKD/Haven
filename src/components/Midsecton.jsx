@@ -17,7 +17,7 @@ const Midsecton = () => {
           whileInView={{
             y: 0,
             opacity: 1,
-            transition: { delay: 0.2, duration: 0.5, ease: "easeIn" },
+            transition: { delay: 0.5, duration: 0.5, ease: "easeIn" },
           }}
           viewport={{
             once: true,

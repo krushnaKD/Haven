@@ -21,7 +21,7 @@ const Secondlast = () => {
               servicing stack.
             </p>
             <button className="text-white text-start font-sans font-medium text-xl mt-5 hover:px-3">
-              See how it works<i class="ri-arrow-right-s-line"></i>
+              See how it works<i className="ri-arrow-right-s-line"></i>
             </button>
           </div>
         </div>

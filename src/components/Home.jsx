@@ -76,8 +76,8 @@ const Home = () => {
               </span>
             </motion.h1>
           </div>
-          <div class="grid grid-rows-[auto,1fr,auto] h-screen gap-4 p-4 mt-14 ">
-            <div class=" p-4 ">
+          <div className="grid grid-rows-[auto,1fr,auto] h-screen gap-4 p-4 mt-14 ">
+            <div className=" p-4 ">
               <h1 className="text-center font-medium text-5xl tracking-tight">
                 The most effective way to <br /> retain homeowners
               </h1>
@@ -110,7 +110,7 @@ const Home = () => {
                     adipisicing.
                   </p>
                   <button className="mt-[30vh] text-2xl font-medium transition ease-in-out hover:px-4 ">
-                    Servicer <i class="ri-arrow-right-s-line"></i>
+                    Servicer <i className="ri-arrow-right-s-line"></i>
                   </button>
                 </motion.div>
                 <motion.div
@@ -134,7 +134,7 @@ const Home = () => {
                     adipisicing.
                   </p>
                   <button className="mt-[30vh] text-2xl font-medium hover:px-4 transition-all ease-in-out font-serif">
-                    Subservicer<i class="ri-arrow-right-s-line"></i>
+                    Subservicer<i className="ri-arrow-right-s-line"></i>
                   </button>
                 </motion.div>
 
@@ -159,7 +159,7 @@ const Home = () => {
                     adipisicing.
                   </p>
                   <button className="mt-[30vh] text-2xl font-medium transition ease-in-out hover:px-4 font-serif">
-                    Lender<i class="ri-arrow-right-s-line"></i>
+                    Lender<i className="ri-arrow-right-s-line"></i>
                   </button>
                 </motion.div>
               </div>
