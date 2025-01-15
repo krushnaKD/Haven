@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div
   
-      className=" w-full h-full bg-[#F9F7F3]"
+      className=" w-full h-full bg-[#F9F7F3] font-[Rza]"
     >
       <Home />
       <Footer/>

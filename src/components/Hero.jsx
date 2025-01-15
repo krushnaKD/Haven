@@ -12,11 +12,11 @@ const Hero = () => {
        animate={{y:0,opacity:1 ,delay:3}}
        transition={{duration:1 ,ease:"easeInOut"}}
       className="w-full h-[60vh] mt-10 flex flex-col items-center ">
-        <h1 className="text-[#068466] font-medium text-xl">Meet Heaven</h1>
-        <h1 className="text-7xl text-[#1C4044] font-extrabold tracking-tighter mt-4">
+        <h1 className="text-[#068466] font-bold text-xl font-[Moderat ]" >Meet Heaven</h1>
+        <h1 className="text-7xl text-[#1C4044] font-[Rza] font-bold tracking- mt-4">
           Get the most out of{" "}
         </h1>
-        <span className="text-7xl text-[#1C4044] font-extrabold tracking-tighter">
+        <span className="text-7xl text-[#1C4044] font-[Rza] font-bold">
           MSR
         </span>
         <p className="text-center text-[#1C4044] font-medium text-xl mt-4">
