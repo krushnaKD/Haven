@@ -141,7 +141,7 @@ const Navbar = () => {
                   <h1 className="text-sm  font-sans  font-semibold ">
                     Contact
                   </h1>
-                  <p className="text-xs">
+                  <p className="text-xs hover:text-gray-200">
                     Lorem ipsum dolor sit amet consectetur adipisicing Lorem
                     ipsum dolor sit amet.
                   </p>
