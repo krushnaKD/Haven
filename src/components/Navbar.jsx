@@ -153,7 +153,7 @@ const Navbar = () => {
           </motion.div>
         </h2>
       </div>
-      <button className="px-3 py-1 text-lg bg-[#068466] rounded-lg text-white hover:bg-[#1C4044]">
+      <button className="px-3 py-1 text-lg bg-[#068466] rounded-lg text-white hover:bg-[#1c4347]">
         Get-a-Demo
       </button>
     </div>
